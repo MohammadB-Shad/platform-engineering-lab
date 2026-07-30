@@ -36,3 +36,10 @@ Purpose:
 | Monitoring | 192.168.10.30 | Management |
 | App Server | 192.168.20.10 | Application |
 | Database | 192.168.20.20 | Application |
+
+## VMware Virtual Networks
+
+| VMnet | Type | CIDR | DHCP | Purpose |
+|-------|------|------|------|----------|
+| VMnet2 | Host-Only | 192.168.10.0/24 | Disabled | Management |
+| VMnet3 | Host-Only | 192.168.20.0/24 | Disabled | Application |
